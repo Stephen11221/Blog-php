@@ -1,0 +1,61 @@
+
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+/*navbar styling/*/
+nav{
+    background: rgb(40, 75, 5);
+}
+nav .nav-link{
+    color: aliceblue;
+}
+.navbar-brand{
+    font-style: italic;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+/*Spacing container A-b*/
+.container-a{
+    height: 60vh;
+    margin: 50px auto;
+}
+/*Home styling*/
+.get-btn{
+    padding: 20px 15px;
+    color: antiquewhite;
+    border-radius: 8px;
+    border: none;
+    background: rgb(40, 75, 5);
+}
+.flex{
+    display: flex;
+    height: 100vh;
+    .sidebar{
+        width: 350px;
+        background: green;
+    }
+    .sidebar ul{
+        list-style: none;
+       margin-top: 20px ;
+
+    }
+    .sidebar ul li{
+        margin-top: 20px;
+        padding: 12px auto;
+    }
+    .sidebar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
+.main {
+    width: 100%;
+}
+/*container-b styling*/
+.container-b{
+    margin-top: 140px;
+}
